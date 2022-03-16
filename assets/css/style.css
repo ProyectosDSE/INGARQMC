@@ -419,7 +419,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     - Button
 ------------------------------------------*/
 .btn {
-  background-color: #ffbe00;
+  background-color: #0e0af5;
   color: #ffffff;
   font-size: 16px;
   line-height: 24px;
@@ -446,7 +446,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 100%;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  border: 2px solid #ffbe00;
+  border: 2px solid #f0121e;
   z-index: -1;
 }
 .btn::after {
@@ -458,7 +458,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 100%;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  border: 2px solid #ffbe00;
+  border: 2px solid #0e0af5;
   z-index: -1;
 }
 .btn:hover {
@@ -960,7 +960,7 @@ header.header.is-sticky .header-top {
 
 /*-- Header Top --*/
 .header-top {
-  background-color: #ffbe00;
+  background-color: #fd3e3e;
 }
 .header-top > .container > .row > div {
   margin: 6px 0;
