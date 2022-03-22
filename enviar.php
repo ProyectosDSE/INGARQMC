@@ -5,13 +5,13 @@ $asunto = $_POST['subject'];
 $telefono = $_POST['phone'];
 $servicio = $_POST['select-service'];
 $mensaje = $_POST['message'];
-$correo = "Esra informacion fue recolectada desde el sitio de MC <br/>"
-          ."Nombre del Prospecto".$nombre. "<br/>"
-          ."Correo". $email. "<br/>"
-          ."Asunto".$asunto. "<br/>"
-          ."Telefono". $telefono. "<br/>"
-          ."Servicio de interes". $servicio. "<br/>"
-          ."Mensaje". $mensaje;
+$correo = "Esta informacion fue recolectada desde el sitio de MC <br/>"
+          ."Nombre del Prospecto:"."<br/>".$nombre. "<br/>"
+          ."Correo:"."<br/>". $email. "<br/>"
+          ."Asunto:"."<br/>".$asunto. "<br/>"
+          ."Telefono:"."<br/>". $telefono. "<br/>"
+          ."Servicio de interes:"."<br/>". $servicio. "<br/>"
+          ."Mensaje:"."<br/>". $mensaje;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
