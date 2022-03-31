@@ -35,8 +35,7 @@ try {
 
     
     $mail->setFrom('rsociales@ingarqmc.com.mx', 'Nuevo prospecto de MC');//Recipients remitente (quien envia)
-    $mail->addAddress('angelocampo262@gmail.com', 'Sitio de MC');     //aquien se envia
-    //$mail->addAddress('proyectos@ingarqmc.com.mx', 'Sitio de MC');     //aquien se envia
+    $mail->addAddress('proyectos@ingarqmc.com.mx', 'Sitio de MC');     //aquien se envia
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
