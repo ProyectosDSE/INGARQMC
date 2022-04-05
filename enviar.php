@@ -26,15 +26,15 @@ try {
     //Server settings
     $mail->SMTPDebug = 0;                                       //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.ingarqmc.com.mx';                     //Set the SMTP server to send through
+    $mail->Host       = 'mail.ingarqmc.com.mx';                 //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'rsociales@ingarqmc.com.mx';                     //SMTP username
-    $mail->Password   = 'Sociales.123';                               //SMTP password
+    $mail->Username   = 'rsociales@ingarqmc.com.mx';            //SMTP username
+    $mail->Password   = 'Sociales.123';                         //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     
-    $mail->setFrom('rsociales@ingarqmc.com.mx', 'Nuevo prospecto de MC');//Recipients remitente (quien envia)
+    $mail->setFrom('rsociales@ingarqmc.com.mx', 'Nuevo prospecto de MC');//remitente (quien envia)
     $mail->addAddress('proyectos@ingarqmc.com.mx', 'Sitio de MC');     //aquien se envia
 
     //Content
